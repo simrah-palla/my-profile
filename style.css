@@ -1,0 +1,98 @@
+/* designing fonts and colors */
+body {
+	font size: 16px;
+	background:#fff1e9;
+	color: rgb(100,100,100);
+	font-family: 'Muli', sans-serif;
+}
+h1, h2 {
+	font-family: Courier;
+	color: #1E1E1E;
+}
+h1{
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif
+	font-weight: 700;
+}
+h2{
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif
+	font-weight: 300;
+}
+a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #14868c;
+	transition: 0.5s;
+}
+a:hover {
+	color: black;
+}
+
+/* Custon design using class and id */
+.container {
+	width: 800px;
+	margin: 30px auto;
+}
+.box-white {
+	background: white;
+	padding: 30px;
+	margin-bottom: 20px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 5px;
+	text-align: center;
+}
+.img-circle {
+	border-radius: 50%;
+}
+.btn-green {
+	color: white;
+	font: 20px;
+	background: #14868c;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+.btn-green:hover {
+	background: black;
+	color: white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 30px;
+	color: rgb(200,200,200);
+}
+.list-inline i:hover {
+	color: black;
+	transition: 0.2s;
+}
+#spacing p {
+	margin-bottom: 25px;
+}
+#text li {
+	text-align: left;
+}
+@media (max-width: 500px) {
+	.box-white {
+		width: 300px;
+	}
+}
+@media (max-width: 750px) {
+	.container {
+		width: 550px;
+	}
+}
+@media (max-width: 1000px) {
+	.container {
+		width: 700px;
+	}
+}
+
+
+
